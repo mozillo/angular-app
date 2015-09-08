@@ -1,0 +1,10 @@
+asset "jquery"
+
+asset "angular", "1.3.0"
+asset "angular-ui-router"
+asset "angular-ui-calendar"
+asset "ngstorage"
+asset "angular-devise"
+asset "oclazyload"
+
+asset "fullcalendar"

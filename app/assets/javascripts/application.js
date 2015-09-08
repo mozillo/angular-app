@@ -1,0 +1,14 @@
+//= require jquery/dist/jquery
+//= require angular/angular
+//= require angular/angular-resource/angular-resource
+//= require angular-rails-templates
+//= require angular/angular-ui-router/angular-ui-router
+//= require angular/angular-bootstrap/ui-bootstrap-tpls
+//= require angular/angular-animate/angular-animate
+//= require angular/ngstorage/ngStorage
+//= require oclazyload/dist/ocLazyLoad
+//= require angular-devise/lib/devise
+//= require angular/app
+//= require_tree ./services
+//= require_tree ./directives
+//= require_tree ../templates

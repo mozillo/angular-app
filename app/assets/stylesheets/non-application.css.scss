@@ -1,0 +1,162 @@
+[ng\:cloak], [ng-cloak], [data-ng-cloak], [x-ng-cloak], .ng-cloak, .x-ng-cloak {
+  display: none !important;
+}
+html,body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Lantinghei SC","Open Sans",Arial,"Hiragino Sans GB","Microsoft YaHei","微软雅黑","STHeiti","WenQuanYi Micro Hei",SimSun,sans-serif;
+}
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+.n-header {
+  height: 32px;
+  line-height: 32px;
+  color: #FFFFFF;
+  background: #1E1B29;
+}
+.n-header ul.n-menu {
+  text-align: right;
+  margin-right: 20px;
+  list-style: none;
+  clear: both;
+}
+.n-header ul.n-menu li{
+  font-size: 14px;
+  display: inline-block;
+}
+.n-header ul.n-menu li.divider{
+
+}
+
+.n-hero {
+  height: 700px;
+  background: url('index/bg.jpg') center center no-repeat;
+}
+
+.n-hero .n-logo {
+  display: block;
+  height: 40px;
+  width: 200px;
+  background: url('index/logo.png') 100% 100% no-repeat;
+}
+
+.n-hero .n-menu {
+  padding: 20px 0;
+  width: 100%;
+  background: rgba(255,255,255,0.6);
+}
+
+.n-hero .n-menu li {
+  text-align: center;
+  display: inline-block;
+  width: 100px;
+  font-size: 18px;
+}
+
+.n-hero a.n-login {
+  border-radius: 5px;
+  padding: 5px 0;
+  text-decoration: none;
+  text-align: center;
+  display: block;
+  background: #0BB6E7;
+  color: #FFF;
+  width: 90px;
+  outline: none;
+}
+
+.n-hero a.n-login:active {
+  box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.15) inset;
+}
+
+.n-hero a.n-register {
+  border-radius: 5px;
+  padding: 5px 0;
+  text-decoration: none;
+  text-align: center;
+  display: block;
+  background: none;
+  font-weight: 600;
+  color: #0BB6E7 !important;
+  width: 90px;
+  border: 1px solid #0BB6E7;
+}
+.n-hero a.n-register:active {
+  box-shadow: 0px 0px 3px 0px rgba(11, 182, 231, 0.25) inset;
+}
+
+.n-hero a.n-register {
+  color: #369;
+}
+
+.n-hero .n-brief {
+  display: block;
+  height: 220px;
+  width: 500px;
+  background: url('index/brief.png') 100% 100% no-repeat;
+}
+
+.n-hero .n-join {
+  display: block;
+  height: 60px;
+  width: 400px;
+  background: url('index/join.png') 100% 100% no-repeat;
+}
+
+.n-footer {
+  background: #F5F5F5;
+}
+.n-footer ul {
+  width: 100%;
+  list-style: none;
+}
+.n-footer ul li{
+  width: 31%;
+  margin: 0;
+  padding: 10px;
+  display: inline-block;
+}
+
+.n-footer .n-title {
+  color: #999999;
+  font-size: 14px;
+}
+
+.n-footer span.n-weixin {
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  background: url('index/weixin.png') 100% 100% no-repeat;
+}
+
+
+.n-footer span.n-qr {
+  display: inline-block;
+  width: 120px;
+  height: 120px;
+  background: url('index/qr.png') center center no-repeat;
+}
+
+.n-footer .n-copyright {
+  position: relative;
+  text-align: center;
+  background: #000000;
+  color: #A0A0A0;
+  font-size: 14px;
+  padding: 10px;
+}
+.n-footer .n-copyright ul {
+  position: absolute;
+  right: 20px;
+  top: 10px;
+  width: auto;
+}
+.n-footer .n-copyright ul li {
+  min-width: 0;
+  width: auto;
+  padding: 0;
+}

@@ -1,0 +1,21 @@
+default: &default
+  adapter: mysql2
+  encoding: utf8
+  pool: 5
+  username: root
+  password: lean8866
+  host: localhost
+
+development:
+  <<: *default
+  database: sales
+
+# test:
+#   <<: *default
+#   database: sales_test
+
+production:
+  <<: *default
+  database: sales_pro
+  username: root
+  password: lean8866

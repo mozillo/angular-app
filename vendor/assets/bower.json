@@ -1,0 +1,16 @@
+{
+  "name": "dsl-generated dependencies",
+  "dependencies": {
+    "jquery": "latest",
+    "angular": "1.3.0",
+    "angular-resource@1.3.0": "latest",
+    "angular-ui-router": "latest",
+    "angular-ui-calendar": "latest",
+    "ngstorage": "latest",
+    "angular-devise": "latest",
+    "oclazyload": "latest",
+    "fullcalendar": "latest"
+  },
+  "resolutions": {
+  }
+}
